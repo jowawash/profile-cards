@@ -2,4 +2,4 @@
 
 ### This is a test project 
 
-You can preview this site [here](jowawash.github.io/profile-cards)
+You can preview this site [here](https://jowawash.github.io/profile-cards/)
