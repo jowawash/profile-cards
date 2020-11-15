@@ -45,6 +45,7 @@
     top: 35%;
     left: 50%;
     transform: translateX(-50%);
+    
 }
 
 .card {
@@ -55,9 +56,11 @@
     align-items: center;
     justify-content: space-evenly;
     transition: transform .5s;
-}
+    border-radius: 20px;
+    border: 1px solid white;
+}    
 
-@keyframes cardAnim {
+    @keyframes cardAnim {
     0% {opacity: 0}
     100% {opacity: 1}
 }
@@ -83,6 +86,7 @@
     height: 220px;
     object-fit: cover;
     clip-path: polygon(0 0, 100% 0, 100% 71%, 0% 100%);
+    border-radius: 20px;
 }
 
 .profile-image {
